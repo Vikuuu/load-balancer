@@ -14,7 +14,7 @@ func readYAML(pwd string) ([]string, error) {
 		return nil, err
 	}
 
-	server := struct {
+	server := &struct {
 		Data []string `yaml:"serve"`
 	}{}
 
