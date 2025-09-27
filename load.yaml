@@ -1,0 +1,4 @@
+serve: 
+  - name1 https://google.com 10
+  - name2 https://bing.com 20
+  - name3 https://duckduckgo.com 100
